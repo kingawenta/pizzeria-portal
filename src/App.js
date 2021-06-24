@@ -15,6 +15,7 @@ import TablesEventsNew from './components/views/Tables/TablesEventsNew';
 
 function App() {
   return (
+    <div>
     <BrowserRouter basename={'/panel'}>
       <MainLayout>
         <Switch>
@@ -30,24 +31,10 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + '/waiter/order/:id'} component={WaiterOrderId} />
           <Route exact path={process.env.PUBLIC_URL + '/waiter'} component={Waiter} />
           <Route exact path={process.env.PUBLIC_URL + '/waiter/order/new'} component={WaiterOrderNew} />
-          <div className="App">
-            <header className="App-header">
-              <p>
-                Edit <code>src/App.js</code> and save to reload.
-              </p>
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-             Learn React
-              </a>
-            </header>
-          </div>
         </Switch>
       </MainLayout>
     </BrowserRouter>
+    </div>
   );
 }
 
