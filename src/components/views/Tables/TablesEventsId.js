@@ -3,7 +3,7 @@ import React from 'react';
 
 const TablesEventsId = () =>
   <div className={styles.component}>
-    <h2>TablesEventsId View</h2>
+    <h2>Ordering Event</h2>
   </div>;
 
 

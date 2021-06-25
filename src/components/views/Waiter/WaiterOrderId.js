@@ -3,7 +3,7 @@ import React from 'react';
 
 const WaiterOrderId = () =>
   <div className={styles.component}>
-    <h2>WaiterOrderId View</h2>
+    <h2>New</h2>
   </div>;
 
 

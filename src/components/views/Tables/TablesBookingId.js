@@ -3,7 +3,7 @@ import React from 'react';
 
 const TablesBookingId = () =>
   <div className={styles.component}>
-    <h2>TablesBookingId View</h2>
+    <h2>Ordering Booking</h2>
   </div>;
 
 

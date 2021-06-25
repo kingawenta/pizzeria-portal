@@ -3,7 +3,7 @@ import React from 'react';
 
 const TablesEventsNew = () =>
   <div className={styles.component}>
-    <h2>TablesEventsNew View</h2>
+    <h2>New Event</h2>
   </div>;
 
 

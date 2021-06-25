@@ -3,7 +3,7 @@ import React from 'react';
 
 const TablesBookingNew = () =>
   <div className={styles.component}>
-    <h2>TablesBookingNew View</h2>
+    <h2>New Booking</h2>
   </div>;
 
 

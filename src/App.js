@@ -24,11 +24,11 @@ function App() {
           <Route path={process.env.PUBLIC_URL + '/tables'} component={Tables}/>
           <Route path={process.env.PUBLIC_URL + '/waiter'} component={Waiter}/>
           <Route path={process.env.PUBLIC_URL + '/kitchen'} component={Kitchen}/>
-          <Route exact path={process.env.PUBLIC_URL + '/tables/booking/:id'} component={TablesBookingId} />
+          <Route exact path={process.env.PUBLIC_URL + '/tables/booking/ordering'} component={TablesBookingId} />
           <Route exact path={process.env.PUBLIC_URL + '/tables/booking/new'} component={TablesBookingNew} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables/events/:id'} component={TablesEventsId} />
+          <Route exact path={process.env.PUBLIC_URL + '/tables/events/ordering'} component={TablesEventsId} />
           <Route exact path={process.env.PUBLIC_URL + '/tables/events/new'} component={TablesEventsNew} />
-          <Route exact path={process.env.PUBLIC_URL + '/waiter/order/:id'} component={WaiterOrderId} />
+          <Route exact path={process.env.PUBLIC_URL + '/waiter/order/ordering'} component={WaiterOrderId} />
           <Route exact path={process.env.PUBLIC_URL + '/waiter'} component={Waiter} />
           <Route exact path={process.env.PUBLIC_URL + '/waiter/order/new'} component={WaiterOrderNew} />
         </Switch>
